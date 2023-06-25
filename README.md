@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Digilance
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Digilance is a blockchain-based online marketplace for freelance services. The platform connects freelancers with clients, ensuring that the work produced meets requirements through a validation system. The validation process involves topic-specific randomized community validators with proven experience.
 
-In the project directory, you can run:
+## Installation Guide
+
+Clone the project repository and follow the steps below to install and run the project:
+
+1. Add the MetaMask web extension to your browser.
+2. After setting up MetaMask, navigate to the project directory.
+3. Open a terminal or command prompt.
+4. Run the following command to start the project:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. The application will run in development mode.
+6. Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+7. Ensure that MetaMask is active and logged in to the desired wallet account.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technical Guide
 
-### `npm run build`
+Digilance incorporates various technical components to enhance security, efficiency, and transparency within the platform:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Authentication System: Digilance uses a digital wallet-based authentication system, leveraging the MetaMask extension for quick login. This improves security and provides instant access to the wallet without additional wallet IDs.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Project Publication and Developer Ranking: Projects are published on a community page, allowing clients to choose developers based on their experience level. Developer ranking increases with successful bids.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Proof of Work (PoW): Code/project validators perform proof of work during the final project handover. Validators, randomly selected from relevant industry groups, verify task completion based on the provided descriptions. This adds an additional check and mitigates client-side issues.
 
-### `npm run eject`
+4. Task Validation and Consensus: Digilance utilizes a consensus mechanism that requires 100% task validation by validators. Validators are chosen randomly within specific industry groups, ensuring fairness. Developers have equal opportunities to become validators.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Validation Rewarding System: Each bid includes a fee locked for validators. A validation rewarding system releases smart contract funds to developers and validators upon project validation by the client.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## technologies used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Metamask
+- Astar
+- React
+- Solidity
+- Web3.js
+- Truffle
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributors
+andrew_pronin@icloud.com
+rarvrp1234@gmail.com
+abubakaribrahim08@yahoo.com
+mqasim.zia92@gmail.com
+chisomizundu1@gmail.com
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## License
+This repository has been released under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+By contributing to Frappe, you agree that your contributions will be licensed under its MIT License.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Presented by Zen
